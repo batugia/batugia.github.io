@@ -1,81 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-    Queen Nails
-</title>    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-div.container {
-    width: 100%;
-    border: 1px solid gray;
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+}
+.menuitem {
+  padding:8px;
+  margin-top:7px;
+  border-bottom:1px solid #f1f1f1;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:lightblue;
+  float:left;
+  width:20%;
+  padding:10px 15px;
+  margin-top:7px;
 }
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: #664400;
-    font-family: courier;
-    text-align: center;
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width:80%;
+  }
+  .right {
+    width:100%;
+  }
 }
-    
-image{
-    text-align: center;
-}
-
-nav {
-    float: left;
-    max-width: 170px;
-    margin: 0;
-    padding: 1em;
-    background-color: #b37700;
-    color: white;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    background-image: url("http://biteinto.info/wp-content/uploads/2016/02/light-wood-repeating-background-and-repeating-background-pattern-wood-15.jpg");
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
 }
 </style>
 </head>
-<body>
+<body style="font-family:Verdana;">
 
-<div class="container">
-
-<header>
-   <h1>QUEEN NAILS</h1>
-</header>
-  
-<nav>
-  <ul>
-    <li><a href="#">Manicure</a></li>
-    <li><a href="#">Pedicure</a></li>
-    <li><a href="#">Artificial Nails</a></li>
-  </ul>
-</nav>
-
-<article>
-  <h1>11500 Midlothian Turnpike, Richmond, VA 23235</h1>
-  <p class = "image"> <img src="https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1644/1644482-bigthumbnail.jpg" width="1000" height="600"> </p>
-  <h2>Queen Nails has been providing the best nail care, manicure and pedicures for almost 20 years.</h2>
-  <h2>Since 2002 We offer luxurious massages and professional skin care services.</h2>
-  <h2>Beauty products are used and sold here</h2>
-</article>
-
-<footer>Designed by Tu Gia</footer>
-
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>The Puplit Rock</h1>
 </div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">The Drive</div>
+    <div class="menuitem">The Walk</div>
+    <div class="menuitem">The Return</div>
+    <div class="menuitem">The End</div>
+  </div>
+
+  <div class="main">
+    <h2>The Walk</h2>
+    <p>The walk to the Pulpit Rock will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+    <img src="img_pulpit.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>What?</h2>
+    <p>The Pulpit Rock is a part of a mountain that looks like a pulpit.</p>
+    <h2>Where?</h2>
+    <p>The Pulpit Rock is in Norway.</p>
+    <h2>Price?</h2>
+    <p>The Walk is free!</p>
+  </div>
+</div>
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;">This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
 
 </body>
 </html>
