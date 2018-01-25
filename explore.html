@@ -1,99 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <style>
-      * {
-        box-sizing: border-box;     
-        background-color: light yellow;
-            
-      }
-            
-     .form{
-           background-color: light blue;
-            }
-            
-            
-            
-            
-      </style>
-      <div class="form">
-      <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Sign Up</a></li>
-        <li class="tab"><a href="#login">Log In</a></li>
-      </ul>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
 
-      <div class="tab-content">
-        <div id="signup">   
-          <h1>Sign Up for Free</h1>
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
 
-          <form action="/" method="post">
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
 
-          <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
 
-            <div class="field-wrap">
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
-            </div>
-          </div>
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
 
-          <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
+<div class="container">
 
-          <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
+<header>
+   <h1>City Gallery</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">London</a></li>
+    <li><a href="#">Paris</a></li>
+    <li><a href="#">Tokyo</a></li>
+  </ul>
+</nav>
 
-          <button type="submit" class="button button-block"/>Get Started</button>
+<article>
+  <h1>London</h1>
+  <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</article>
 
-          </form>
+<footer>Copyright &copy; W3Schools.com</footer>
 
-        </div>
+</div>
 
-        <div id="login">   
-          <h1>Welcome Back!</h1>
-
-          <form action="/" method="post">
-
-            <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-
-          <div class="field-wrap">
-            <label>
-              Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
-
-          <button class="button button-block"/>Log In</button>
-
-          </form>
-
-        </div>
-
-      </div><!-- tab-content -->
-
-</div> <!-- /form -->
-
+</body>
 </html>
