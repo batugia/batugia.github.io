@@ -1,0 +1,94 @@
+#contain{
+	background-color: #c9b370;
+	color: white;
+	border-color: black;
+	border:solid 2px;
+	display: -webkit-flex; 
+    -webkit-flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
+}
+#containA{
+	border: solid 5px #5b421b;
+	float:left;
+	width: 20%;
+	background-color: #967d30;
+	text-align: center;
+}
+#containB{
+	border: solid 5px #5b421b;
+	float:left;
+	width: 20%;
+	background-color: #967d30;
+	text-align: center;
+}
+#containC{
+	border: solid 5px #5b421b;
+	float:left;
+	width: 20%;
+	background-color: #967d30;
+	text-align: center;
+}
+#containD{
+	border: solid 5px #5b421b;
+	float:left;
+	width: 20%;
+	background-color: #967d30;
+	text-align: center;
+}
+#containE{
+	border: solid 5px #5b421b;
+	float:left;
+	width: 20%;
+	background-color: #967d30;
+	text-align: center;
+}
+.jumbotron{
+	display : -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+	background-image:url(" https://wallpaper.wiki/wp-content/uploads/2017/05/Free-Images-HD-Bamboo-Backgrounds.jpg");
+}
+.classA{
+	float:left;
+	width:50%;
+	padding-left: 50px;
+}
+	
+.classB{
+	float:left;
+	width: 50%;
+	color:#5b421b;
+	padding-right: 10px;
+	font-family: 'Ceviche One', cursive;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  color: #ffffff;
+  background-color: #563808;
+  border-color: #563808;
+}
+.grid-container{
+	background-color: white;
+	color:#5b421b;
+	display: -webkit-flex; 
+    -webkit-flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-item{
+	background-color: #dbc58a;
+	color:#5b421b;
+	width:30%;
+	text-align: center;
+	margin:auto;
+}
+#footer{
+	color:#5b421b;
+	text-align: center;
+	padding-top:40px;
+}
