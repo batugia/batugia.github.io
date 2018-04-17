@@ -1,0 +1,100 @@
+body{
+	background-color: #555e66
+}
+.navbar-default{
+	color: white;
+}
+
+
+.container-fluid{
+	background-color:#313235 ;
+}	
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.jumbotron{
+	background-color:#91a1ba;
+	border:solid 5px;
+	border-color: #202d42;
+	text-align: right;
+	padding: 5px;
+	padding-right: 50px;
+	padding-left: 70px;
+	float: left;
+	width:100%;
+}
+
+h1{
+	float: left;
+	text-align: left;
+	width: 70%;
+	height:50%;
+}
+h2{
+	font-size:400%;
+}
+.contain{
+	background-color:#313235 ;
+}
+.main{
+	padding-left: 20px;
+	float: left;	
+	width: 50%;
+
+}
+
+.mainr{
+	float:left;
+	width: 50%;
+	padding-top:10px;
+	padding right:30px;
+	text-align: right;
+	padding-right: 30px;
+}
+
+h3{
+	padding-bottom:30px;
+	color: white;
+
+}
+
+p{
+	color: white;
+}
+
+/*ol{
+	width:40%;
+	border: solid;
+	border-color: white;
+	padding:10px;
+}*/
+
+ol li{
+	color: white;
+	border: solid;
+	border-color: white;
+	padding:20px;
+	float:left;
+	width:40%;
+	height: 200px;
+	display: inline;
+}
+h4{
+	text-align: center
+}
+
+}
+.mainr:{
+	
+}
+p{
+
+}
